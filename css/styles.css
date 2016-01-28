@@ -1,0 +1,249 @@
+/* ===============================
+   Author: MIRCEA JIANU
+   Date:   22.11.2014
+   
+   Notes:
+   Custom + Made Project
+   
+   Colour Palette:
+   ---------------
+   Text Color:	#2e2e2e
+   Dark BG:			#5c5d60
+   Links:			  #f46151
+   Buttons:			#f2ae5d
+   Footer:      #333538
+   =============================== */
+
+/* GENERAL LAYOUT RULES */
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.row {
+	overflow: hidden;
+}
+
+.column-half {
+	width: 576px;
+	float: left;
+	margin: 0 12px 24px;
+}
+
+.container-center {
+	margin: 0 auto 96px auto;
+	width: 600px;
+	text-align: center;
+}
+
+/* TYPOGRAPHY */
+
+body {
+	color: #2e2e2e;
+	font: 16px/24px 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+h1, h3 {
+	font-family: "Georgia", serif;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 55px;
+	margin-bottom: 48px;
+}
+
+h3 {
+	font-size: 32px;
+}
+
+h4 {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #5c5d60;
+	text-transform: uppercase;
+	
+}
+
+p {
+	margin-bottom: 24px;
+}
+
+a {
+	text-decoration: none;
+	color: #f46151;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Header */
+
+.header-homepage {
+	background: url(../images/header-bg.jpg) 0 0 no-repeat;
+	height: 600px;
+	background-size: 100%;
+	margin-bottom: 96px;
+}
+
+.header-collections {
+	background: url(../images/hd-collections.jpg) 0 0 no-repeat;
+	height: 330px;
+	background-size: 100%;
+	margin-bottom: 96px;
+}
+
+.header-about {
+	background: url(../images/hd-about.jpg) 0 0 no-repeat;
+	height: 330px;
+	background-size: 100%;
+	margin-bottom: 96px;
+}
+
+.logo {
+	float: left;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin-left: 24px;
+}
+
+nav ul li a {
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.top-container {
+	overflow: hidden;
+	padding: 48px 0;
+}
+
+.header-hr {
+	background-color: rgba(255, 255, 255, 0.1);
+	border: 0;
+	height: 1px;
+	margin-top: 0;
+	margin-bottom: 96px;
+}
+
+.header-contents {
+	text-align: center;
+	color: white;
+}
+
+.header-contents p {
+	padding: 0 200px;
+	margin-bottom: 48px;
+}
+
+/* BUTTONS */
+
+.btn {
+	display: inline-block;
+	height: 48px;
+	width: 200px;
+	border: 1px solid #f2ae5d;
+	color: #f2ae5d;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.btn:hover {
+	text-decoration: none;
+	background-color: #f2ae5d;
+	color: #2e2e2e;
+}
+
+/* Footer */
+
+footer {
+	background-color: #333538;
+	padding: 24px 0;
+	margin-top: 48px;
+}
+
+footer p {
+	color: white;
+}
+
+form input[type="email"] {
+	border: none;
+	height: 48px;
+	width: 335px;
+	padding: 0 12px;
+}
+
+form input[type="submit"] {
+	background-color: transparent;
+	height: 48px;
+	padding: 0 12px;
+	margin-left: 12px;
+}
+
+.social {
+	list-style: none;
+	padding: 0;
+}
+
+.social li {
+	display: inline;
+	margin-right: 12px;
+	font-size: 24px;
+}
+
+.fa {
+	color: #f2ae5d;
+}
+
+.copyright {
+	padding: 48px 0;
+	text-align: center;
+}
+
+.copyright a {
+	text-decoration: none;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+	width: 400px;
+	float: left;
+	margin-right: 48px;
+}
+
+.sidebar ul {
+	list-style: none;
+	padding: 0;
+}
+
+.sidebar ul a.selected {
+	color: #2e2e2e;
+}
+
+.main-content {
+	width: 752px;
+	float: right;
+	margin-bottom: 48px;
+}
+
+.main-content img {
+	margin-bottom: 24px;
+}
